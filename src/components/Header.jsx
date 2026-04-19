@@ -6,7 +6,8 @@ const Header = () => {
     <header className="header glass-panel">
       <div className="header-container">
         <div className="logo">
-          <span className="logo-accent">Pro</span>Wash
+          <img src="/logo.jpeg" alt="Full Cars Logo" className="logo-img" />
+          <span className="logo-text"><span className="logo-accent">Full</span> Cars</span>
         </div>
         <nav className="nav-links">
           <a href="#services">Servicios</a>
